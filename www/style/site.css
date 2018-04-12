@@ -83,6 +83,7 @@ nav {
   align-items: center;
   justify-content: center;
   margin-bottom: 1em;
+  border-radius: 2em;
 }
 
 .image-holders-left {
