@@ -22,7 +22,12 @@
                 <div class="images-holders image-holders-left"></div>
                 <div class="image-holders image-holders-right">
                 </div>
-                <div class="time-box"><?php echo date("h:i:sa", time());  ?></div>
+                <div class="time-box">
+                <?php 
+                        date_default_timezone_set("Lagos/Nigeria"); 
+                        echo date("h:i:sa", time());  
+                ?>
+                </div>
             </div>
             <div class="text-box-container">
                 <div class="box-text">
